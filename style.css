@@ -1,0 +1,337 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #424355;
+    font-family: Signika;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    
+}
+.signature{
+    color: white;
+    font-family: Sacramento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.nav-element{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: Signika;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 20p;
+}
+.hero-ele span{
+    font-weight: 600;
+    font-size: 64px;
+    font-family: Signika;
+}
+.hero-ele p{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    color: white;
+    font-family: Signika;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.quote{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Raleway;
+    color: white;
+}
+.hero-ele{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+    padding: 100px;
+    background: #424355;
+    box-shadow: -10px -10px 20px #4F5062, 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.hero-ele img{
+    animation: slow_down 3s ease;
+}
+@keyframes slow_down {
+    0%{opacity: 0;}
+    100%{opacity: 1;}    
+}
+.sign{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: Rancho;
+    text-align: end;
+    margin-top: 20px;
+}
+.project-ele h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0px;
+    
+}
+.project-ele hr{
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    border-radius: 10px;
+}
+.project1{
+    background: #424355;
+    box-shadow: -6px -6px 12px rgba(103, 105, 135, 0.5), 6px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+
+}
+.project1 img{
+    transition: 300ms linear;
+}
+.project1 img:hover{
+    transform: scale(1.2);
+}
+.projects{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    width: 100%;
+    padding-top: 100px;
+}
+.project-ele{
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.about_me h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0px;
+    
+}
+.about_me hr{
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+}
+.content span{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.my_img{
+    height: 500px;
+    width: auto;
+}
+.skills h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0px;
+    
+}
+.skills hr{
+    margin: auto;
+    width: 50px;
+    height: 3px;
+    border-radius: 10px;
+}
+.skill_content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 100px 0px;
+}
+.skill_container{
+    background: #424355;
+    box-shadow: -6px -6px 12px #5F607E, 6px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 200px;
+    height: 175px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.skill_container img{
+    height: 80px;
+    width: 80px;
+}
+.education h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0px;
+    
+}
+.education hr{
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    border-radius: 10px;
+}
+.img_edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_edu img{
+    width: 100vw;
+}
+.contact h2{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0px;
+    
+}
+.contact hr{
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    border-radius: 10px;
+}
+.card{
+    background: #272834;
+    box-shadow: 4px 4px 8px rgba(160, 160, 160, 0.23);
+    border-radius: 10px;
+    display: flex;
+    width: 300px;
+    height: 100px; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card span{
+    color: #C8C8C8;
+    font-weight: 300;
+    font-size: 36px;
+
+}
+.card img{
+    width: 50px;
+    height: 50px;
+}
+.contact_elements{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    
+}
+.contact_elements1{
+    display: flex;
+    justify-content: space-evenly;
+        
+}
+.social_link hr{
+    width: 100px;
+    height: 3px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.social_link h2{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.social_link{
+    display: flex;
+    flex-direction: column;
+
+}
+.social_link a{
+    font-weight: normal;
+    font-size: 24px;
+    color: white;
+    font-weight: 200;
+
+}
+footer{
+    background: #272834;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+footer .signature{
+    font-size: 30px;   
+}
+.links hr{
+    width: 50px;
+    height: 3px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.links h2{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.links a{
+    font-weight: normal;
+    font-size: 24px;
+    color: white;
+    font-weight: 200;
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+
+}
