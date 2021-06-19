@@ -99,7 +99,7 @@ nav{
     border-radius: 20px;
     width: 400px;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     overflow: hidden;
 
 }
@@ -121,6 +121,16 @@ nav{
     display: flex;
     flex-direction: column;
 
+}
+.project_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.project_wrapper span{
+    color: white;
+    font-size: 20px;
 }
 .about_me h2{
     display: flex;
