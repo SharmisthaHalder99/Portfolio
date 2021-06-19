@@ -30,6 +30,10 @@ nav{
     font-size: 18px;
     margin-top: 20p;
 }
+.nav-element a{
+    text-decoration: none;
+    color: white;
+}
 .hero-ele span{
     font-weight: 600;
     font-size: 64px;
@@ -296,6 +300,7 @@ nav{
 .social_link{
     display: flex;
     flex-direction: column;
+    width: 300px;
 
 }
 .social_link a{
@@ -310,12 +315,14 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 50px;
     margin-top: 100px;
 }
 footer .signature{
-    font-size: 30px;   
+    font-size: 30px; 
+    width: 300px; 
+    text-align: center; 
 }
 .links hr{
     width: 50px;
@@ -323,6 +330,7 @@ footer .signature{
     border-radius: 10px;
     margin-bottom: 30px;
     margin-left: 0px;
+    margin-left: 220px;
 }
 .links h2{
     display: flex;
@@ -345,5 +353,13 @@ footer .signature{
 .links{
     display: flex;
     flex-direction: column;
-
+    width: 300px;
+    align-items: flex-end;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background: #272834;
 }
