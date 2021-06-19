@@ -242,6 +242,7 @@ nav{
     height: 3px;
     border-radius: 10px;
 }
+
 .card{
     background: #272834;
     box-shadow: 4px 4px 8px rgba(160, 160, 160, 0.23);
@@ -251,6 +252,7 @@ nav{
     height: 100px; 
     justify-content: space-evenly;
     align-items: center;
+    text-decoration: none;
 }
 .card span{
     color: #C8C8C8;
@@ -301,7 +303,7 @@ nav{
     font-size: 24px;
     color: white;
     font-weight: 200;
-
+    text-decoration: none;
 }
 footer{
     background: #272834;
@@ -338,7 +340,7 @@ footer .signature{
     font-size: 24px;
     color: white;
     font-weight: 200;
-
+    text-decoration: none;
 }
 .links{
     display: flex;
