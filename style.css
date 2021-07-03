@@ -156,6 +156,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     padding: 100px 0px;
+    align-items: center;
 }
 .content span{
     font-size: 30px;
@@ -193,8 +194,10 @@ nav{
     background: #424355;
     box-shadow: -6px -6px 12px #5F607E, 6px 6px 12px rgba(0, 0, 0, 0.25);
     border-radius: 200px;
-    height: 175px;
-    width: 175px;
+    max-height: 175px;
+    max-width: 175px;
+    height: 25vw;
+    width: 25vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,8 +205,10 @@ nav{
     margin-bottom: 50px;
 }
 .skill_container img{
-    height: 80px;
-    width: 80px;
+    max-height: 80px;
+    max-width: 80px;
+    height: 10vw;
+    width: 10vw;
 }
 .education h2{
     display: flex;
@@ -252,11 +257,13 @@ nav{
     box-shadow: 4px 4px 8px rgba(160, 160, 160, 0.23);
     border-radius: 10px;
     display: flex;
-    width: 300px;
-    height: 100px; 
+    max-width: 300px;
+    max-height: 100px; 
     justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
+    width: 30vw;
+    height: 12vw;
 }
 .card span{
     color: #C8C8C8;
@@ -265,8 +272,11 @@ nav{
 
 }
 .card img{
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    width: 5vw;
+    height: 5vw;
+    
 }
 .contact_elements{
     display: flex;
@@ -315,9 +325,11 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-bottom: 50px;
     margin-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 footer .signature{
     font-size: 30px; 
@@ -362,4 +374,241 @@ footer .signature{
     color: white;
     justify-content: center;
     background: #272834;
+}
+.menu{
+    display: none;
+
+}
+@media screen and (max-width:1000px) {
+    .menu{
+        display: block;
+    }
+    .menu img{
+        height: 30px;
+    }
+    .nav-element{
+        display: none;
+    }
+}
+@media screen and (max-width:767px){
+    nav{
+        padding: 30px 50px;
+        padding-bottom: 0;
+    }
+    
+} 
+@media screen and (max-width:1315px) {
+    .hero-ele p{
+        font-size: 50px;
+    }
+    .hero-ele span{
+        font-size: 50px;
+    }
+    .hero-ele img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1290px){
+    .quote{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1210px){
+    .hero-ele p{
+        font-size: 3.5vw;
+    }
+    .hero-ele span{
+        font-size: 3.5vw;
+    }
+    .hero-ele{
+        padding: 60px;
+    }
+}
+@media screen and (max-width:964px){
+    .hero-ele{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .quote{
+        font-size: 20px;
+    }
+    #break{
+        display: none;
+    }
+    .hero-ele p{
+        margin-top: 50px;
+    }
+    .hero-ele{
+        padding: 50px;
+    }
+
+}
+@media screen and (max-width:800px){
+    .hero-ele p{
+        font-size: 30px;
+    }
+    .hero-ele span{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:667px){
+    #break1{
+        display: none;
+    }
+    .hero-ele p{
+        font-size: 25px;
+    }
+    .hero-ele span{
+        font-size: 25px;
+    }
+    .quote{
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width:530px){
+    #break1{
+        display: none;
+    }
+    .hero-ele p{
+        font-size: 23px;
+    }
+    .hero-ele span{
+        font-size: 23px;
+    }
+    .quote{
+        font-size: 13px;
+    }
+    .hero-ele{
+        margin: 20px 30px;
+        padding: 30px;
+    }
+
+}
+@media screen and (max-width:1050px){
+    .project-ele{
+        padding: 0 80px;
+    }
+    .projects{
+        grid-template-columns:auto;
+    }
+}
+@media screen and (max-width:767px){
+    .project-ele{
+        padding: 0;
+    }
+    .project1{
+        width: 80vw;
+    }
+    .project-ele h2{
+        font-size: 36px;
+    }
+    .project1 img{
+        object-fit: cover;
+        width: 100%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .about_me span{
+        font-size: 25px;
+    }
+    .my_img{
+        max-height: 500;
+        height:50vw;
+    }
+}
+@media screen and (max-width:800px) {
+    .about_me span{
+        font-size: 18px;
+    }
+    .about_me h2{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:600px){
+    .content br{
+        display: none;
+
+    }
+    .content span{
+        margin: 0 20px;
+        font-size: 15px;
+    }
+    .content img{
+        margin-left: 20px;
+    }
+    .about_me h2{
+        font-size: 36px;
+    }
+
+}
+@media screen and (max-width:767px){
+    .skills h2{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:767px){
+    .education h2{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:767px){
+    .card span{
+        font-size: 4vw;
+    }
+    .contact_elements{
+        padding: 30px 0;
+    }
+    .contact h2{
+        font-size: 36px;
+    }
+}
+.mobile_footer{
+    display: none;
+}
+@media screen and (max-width:767px) {
+    .web_footer{
+        display: none;
+    }
+    .mobile_footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_footer{
+        display: flex;
+    }
+    .social_link{
+        width: max-content;
+    }
+    .social_link a{
+        font-size: 18px;
+    }
+    .social_link h2{
+        font-size: 20px;
+    }
+    .social_link hr{
+        width: 50px;
+        height: 2px;
+    }
+    .links{
+        width: auto;
+    }
+    .links{
+        width: max-content;
+    }
+    .links a{
+        font-size: 18px;
+    }
+    .links h2{
+        font-size: 20px;
+    }
+    .links hr{
+        width: 50px;
+        height: 2px;
+    }
+    .links{
+        width: max-content;
+    }
 }
