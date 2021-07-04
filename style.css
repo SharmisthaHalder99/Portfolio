@@ -553,6 +553,9 @@ footer .signature{
         padding: 60px 0px;
         padding-bottom: 30px;
     }
+    .skill_container{
+        box-shadow: -4px -4px 4px rgba(115, 116, 141, 0.47), 4px 4px 4px rgba(0, 0, 0, 0.25);
+    }
 }
 @media screen and (max-width:767px){
     .education h2{
