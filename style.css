@@ -233,7 +233,7 @@ nav{
     align-items: center;
 }
 .img_edu img{
-    width: 100vw;
+    width: 100%;
 }
 .contact h2{
     margin-top: 100px;
