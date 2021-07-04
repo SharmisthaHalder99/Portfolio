@@ -33,6 +33,7 @@ nav{
 .nav-element a{
     text-decoration: none;
     color: white;
+    transition: 300ms ease;
 }
 .hero-ele span{
     font-weight: 600;
@@ -631,4 +632,25 @@ footer .signature{
     .copyright{
         font-size: 15px;
     }
+}
+.menu_elements{
+    background: #424355;
+    box-shadow: inset -2px -2px 4px rgba(146, 148, 181, 0.4), inset 2px 2px 4px rgba(41, 42, 55, 0.59);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    margin: 20px 30px;
+    display: none;
+}
+.menu_elements a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 0;
+}
+.nav-element a:hover{
+    transform: scale(1.1);
 }
