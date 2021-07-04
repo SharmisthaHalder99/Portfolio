@@ -548,6 +548,10 @@ footer .signature{
     .skills h2{
         font-size: 36px;
     }
+    .skill_content{
+        padding: 60px 0px;
+        padding-bottom: 30px;
+    }
 }
 @media screen and (max-width:767px){
     .education h2{
@@ -575,9 +579,17 @@ footer .signature{
     .mobile_footer{
         display: flex;
         flex-direction: column;
+        padding-bottom: 30px;
+        margin-top: 50px;
     }
     .container_footer{
         display: flex;
+        justify-content: space-between;
+        width: calc(100% - 40px);
+
+    }
+    .links hr{
+        margin-right: 0px;
     }
     .social_link{
         width: max-content;
@@ -597,6 +609,7 @@ footer .signature{
     }
     .links{
         width: max-content;
+
     }
     .links a{
         font-size: 18px;
@@ -607,8 +620,15 @@ footer .signature{
     .links hr{
         width: 50px;
         height: 2px;
+        margin-left: 0;
     }
     .links{
         width: max-content;
+    }
+    footer .signature{
+        margin-top: 30px;
+    }
+    .copyright{
+        font-size: 15px;
     }
 }
