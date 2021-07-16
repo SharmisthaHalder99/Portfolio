@@ -110,6 +110,9 @@ nav{
 }
 .project1 img{
     transition: 300ms linear;
+    max-width: 400px;
+    max-height: 225px;
+    object-fit: cover;
 }
 .project1 img:hover{
     transform: scale(1.2);
@@ -656,4 +659,101 @@ footer .signature{
 }
 .nav-element a:hover{
     transform: scale(1.1);
+}
+.more{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.project_more h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-bottom: 5px;
+    
+}
+.project_more hr{
+    margin: auto;
+    width: 80px;
+    height: 3px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+}
+.project2{
+    background: #424355;
+    box-shadow: -6px -6px 12px rgba(103, 105, 135, 0.5), 6px 6px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+    
+
+}
+.project2 img{
+    transition: 300ms linear;
+    max-width: 400px;
+    max-height: 225px;
+    object-fit: cover;
+}
+.project2 img:hover{
+    transform: scale(1.2);
+}
+.all-projects{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+#back{
+    position: absolute;
+    margin-top: 30px;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    margin-left: 30px;
+
+}
+@media screen and (max-width:767px){
+
+    .all-projects{
+        display: grid;
+        grid-template-columns: auto ;
+    }
+    .project_more h2{
+        font-size: 24px;
+    }
+    .project2 img{
+        object-fit: cover;
+        width: 100%;
+    }
+    .project2{
+        width: 80vw;
+    }
+    .project_more hr{
+        margin: auto;
+        width: 50px;
+        height: 2px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        
+    }
+    #back{
+        position: absolute;
+        margin-top: 20px;
+        display: flex;
+        color: white;
+        font-size: 18px;
+        margin-left: 30px;
+        text-decoration: none !important;
+    
+    }
+
 }
