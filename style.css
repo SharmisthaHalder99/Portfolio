@@ -755,5 +755,8 @@ footer .signature{
         text-decoration: none !important;
     
     }
+    .more{
+        margin-right: 30px;
+    }
 
 }
