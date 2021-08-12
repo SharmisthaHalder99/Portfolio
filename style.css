@@ -504,7 +504,8 @@ footer .signature{
         padding: 0;
     }
     .project1{
-        width: 80vw;
+        width: auto;
+        max-width: 80vw;
     }
     .project-ele h2{
         font-size: 36px;
