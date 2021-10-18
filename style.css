@@ -908,3 +908,6 @@ footer .signature{
 .light_contact .dark_eduicon{
     display: none;
 }
+button:disabled{
+    cursor: not-allowed;
+}

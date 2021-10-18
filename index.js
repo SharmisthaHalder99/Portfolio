@@ -24,7 +24,8 @@ window.addEventListener("click",e =>{
         }
 
 })
-light_btn.addEventListener("click", e=>{
+
+const toggle_func = () => {
     const body =document.querySelector("body")
     body.classList.toggle("light_body")
     
@@ -57,4 +58,16 @@ light_btn.addEventListener("click", e=>{
 
     const toggle = document.querySelector(".toggle")
     toggle.classList.toggle("light_toggle")
+}
+
+light_btn.addEventListener("click", e=>{
+    toggle_func()
+    light_btn.disabled = true
+    dark_btn.disabled = false 
+})
+
+dark_btn.addEventListener("click", e=>{
+    toggle_func()
+    dark_btn.disabled = true 
+    light_btn.disabled = false 
 })
