@@ -770,3 +770,141 @@ footer .signature{
     }
 
 }
+.toggle{
+    position: fixed;
+    transform: rotate(-90deg);
+    top: 80%;
+    display: flex;
+    left: -2%;
+}
+.dark_btn{
+    margin: 0;
+    background-color: #424355;
+    color: white;
+    border: 1px solid #E0DAE9;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.light_btn{
+    margin: 0;
+    background-color: #E0DAE9;
+    color: black;
+    border: 1px solid #E0DAE9;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.lightmode{
+    background-color: #E0DAE9 !important;
+    color: black !important; 
+    /* box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.68), 6px 6px 12px rgba(0, 0, 0, 0.25); */
+}
+.light_body{
+    background: #E0DAE9;
+    color: black;
+}
+.light_hero{
+    background: #E0DAE9;
+    box-shadow: -8px -8px 16px rgba(255, 251, 251, 0.6), 10px 10px 20px #A19AAD;
+    border-radius: 10px;
+    
+}
+.light_hero p{
+    color: black;
+}
+.light_hero .quote{
+    color: #555555;
+}
+.light_hero .sign{
+    color: #555555;
+}
+.light_nav a{
+    color: black;
+    font-weight: 500;
+}
+.light_nav .signature{
+    color: black;
+    font-weight: 500;
+    
+}
+.light_project h2{
+    color: black;
+}
+.light_project .project1{
+    box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.68), 6px 6px 12px rgba(0, 0, 0, 0.25);
+}
+.light_project .project_wrapper span{
+    color: #474747;
+}
+.light_project .more{
+    color: black;
+}
+.light_about h2{
+    color: black;
+}
+.light_about span{
+    color: #474747;
+}
+.light_skill h2{
+    color: black;
+}
+.light_skill .skill_container{
+    background-color: #E0DAE9;
+    box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.62), 6px 6px 12px rgba(0, 0, 0, 0.25);
+}
+.light_education h2{
+    color: black;
+}
+
+.light_education #dark_edu{
+    display: none;
+}
+#light_edu{
+    display: none;
+}
+.light_education #light_edu{
+    display: block;
+}
+.light_contact h2{
+    color: black;
+}
+.light_contact a{
+    background-color: #D0B0F1;
+}
+.light_contact span{
+    color: #474747;
+}
+.light_footer{
+    background-color: #D0B0F1;
+}
+.light_footer h2{
+    color: black;
+}
+.light_footer a{
+    color: #474747;
+}
+.light_footer .signature{
+    color: black;
+}
+.light_copyright {
+    background-color: #D0B0F1;
+    color: black;
+}
+.light_toggle .light_btn{
+    border: 1px solid #31323F;
+    border-left: 0;
+}
+.light_toggle .dark_btn{
+    border: none;
+}
+.light_eduicon{
+    display: none;
+}
+.light_contact .light_eduicon{
+    display: block;
+}
+.light_contact .dark_eduicon{
+    display: none;
+}
