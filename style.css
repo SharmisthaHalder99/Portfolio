@@ -770,6 +770,7 @@ footer .signature{
     }
 
 }
+
 .toggle{
     position: fixed;
     transform: rotate(-90deg);
@@ -910,4 +911,9 @@ footer .signature{
 }
 button:disabled{
     cursor: not-allowed;
+}
+@media screen and (max-width:767px){
+    .toggle{
+        display: none;
+    }
 }
