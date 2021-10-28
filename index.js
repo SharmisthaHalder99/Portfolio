@@ -73,4 +73,15 @@ light_btn.addEventListener("click", e=>{
     light_btn.disabled = true 
     localStorage.setItem('theme' , 'light')
 })
-
+if(localStorage.getItem("theme")=="light"){
+    toggle_func()
+    dark_btn.disabled = false
+    light_btn.disabled = true 
+    
+}
+else{
+    
+    light_btn.disabled = false
+    dark_btn.disabled = true 
+   
+}
