@@ -60,14 +60,17 @@ const toggle_func = () => {
     toggle.classList.toggle("light_toggle")
 }
 
-light_btn.addEventListener("click", e=>{
-    toggle_func()
-    light_btn.disabled = true
-    dark_btn.disabled = false 
-})
-
 dark_btn.addEventListener("click", e=>{
     toggle_func()
+    light_btn.disabled = false
     dark_btn.disabled = true 
-    light_btn.disabled = false 
+    localStorage.setItem('theme' , 'dark')
 })
+
+light_btn.addEventListener("click", e=>{
+    toggle_func()
+    dark_btn.disabled = false
+    light_btn.disabled = true 
+    localStorage.setItem('theme' , 'light')
+})
+

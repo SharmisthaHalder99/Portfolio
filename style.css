@@ -917,3 +917,6 @@ button:disabled{
         display: none;
     }
 }
+.dark_text{
+    color: black !important;
+}
