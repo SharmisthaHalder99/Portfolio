@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background: linear-gradient(239.4deg, #463a50 11.91%, #262439 60.32%), #262439;
+}
+html {
+  scroll-behavior: smooth;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
