@@ -9,6 +9,55 @@ const Works = () => {
       <Stars id="works-stars" />
       <h3>My works</h3>
       <div className="work-grid-container">
+        <a
+          className="work-grid"
+          href="https://www.figma.com/proto/jJ3hpRQGCe2NXp9IZo8Huq?node-id=166-1631&t=jQfcrpEe4ycqd6hu-6"
+        >
+          <img alt="" src="https://i.ibb.co/SxzwsHM/mockup-two.png"></img>
+          <div className="hover-text">
+            <div className="text">
+              I had worked on an e-commerce platform for Twilla, a premium
+              clothing brand. The platform offered a seamless, refined shopping
+              experience with high-quality images, detailed product
+              descriptions, and personalized recommendations, catering to
+              customers who value exclusivity and sophistication in fashion.
+            </div>
+          </div>
+        </a>
+        <a
+          className="work-grid"
+          href="https://www.figma.com/design/aAS13c3b8b823LNtf1o6nX?node-id="
+        >
+          <img alt="" src="https://i.ibb.co/343x7zy/mockup-three.png"></img>
+          <div className="hover-text">
+            <div className="text">
+              I had worked on revamping the website for CIEM, aiming to enhance
+              user experience and streamline access to information for students,
+              faculty, and prospective applicants. The redesign focused on
+              modernizing the layout, improving navigation, and ensuring a
+              mobile-friendly interface to better meet the needs of its
+              audience.
+            </div>
+          </div>
+        </a>
+        <a
+          className="work-grid"
+          href="https://www.figma.com/design/8i2P6opRZEbezJImFLpEuD"
+        >
+          <img
+            alt=""
+            src="https://i.ibb.co/3MpV25Y/4b88af52-8528-4fc8-a189-a5756a5abfb4.png"
+          ></img>
+          <div className="hover-text">
+            <div className="text">
+              I worked on designing an educational report page tailored for
+              children aged 6-16. The page was created to present academic
+              progress in an engaging, age-appropriate way, using visuals,
+              simplified language, and interactive elements to keep young users
+              motivated and informed about their achievements.
+            </div>
+          </div>
+        </a>
         <div className="work-grid">
           <img alt="" src="https://i.ibb.co/WzfkPSJ/Frame-13.png"></img>
           <div className="hover-text">
@@ -74,7 +123,7 @@ const Works = () => {
             </div>
           </div>
         </div>
-        <div className="work-grid">
+        {/* <div className="work-grid">
           <img alt="" src="https://i.ibb.co/vDqSCW2/Frame-5-7.png"></img>
           <div className="hover-text">
             <div className="text">
@@ -87,7 +136,7 @@ const Works = () => {
               efficiently.
             </div>
           </div>
-        </div>
+        </div> */}
         <a
           className="work-grid"
           href="https://www.figma.com/proto/hmhsnbj0F3uNhGq2qOavrv?node-id=5-37"
@@ -100,55 +149,6 @@ const Works = () => {
               The app had provided reminders for each pill, making it easier for
               users to maintain their schedule and manage their health more
               independently.
-            </div>
-          </div>
-        </a>
-        <a
-          className="work-grid"
-          href="https://www.figma.com/proto/jJ3hpRQGCe2NXp9IZo8Huq?node-id=166-1631&t=jQfcrpEe4ycqd6hu-6"
-        >
-          <img alt="" src="https://i.ibb.co/SxzwsHM/mockup-two.png"></img>
-          <div className="hover-text">
-            <div className="text">
-              I had worked on an e-commerce platform for Twilla, a premium
-              clothing brand. The platform offered a seamless, refined shopping
-              experience with high-quality images, detailed product
-              descriptions, and personalized recommendations, catering to
-              customers who value exclusivity and sophistication in fashion.
-            </div>
-          </div>
-        </a>
-        <a
-          className="work-grid"
-          href="https://www.figma.com/design/aAS13c3b8b823LNtf1o6nX?node-id="
-        >
-          <img alt="" src="https://i.ibb.co/343x7zy/mockup-three.png"></img>
-          <div className="hover-text">
-            <div className="text">
-              I had worked on revamping the website for CIEM, aiming to enhance
-              user experience and streamline access to information for students,
-              faculty, and prospective applicants. The redesign focused on
-              modernizing the layout, improving navigation, and ensuring a
-              mobile-friendly interface to better meet the needs of its
-              audience.
-            </div>
-          </div>
-        </a>
-        <a
-          className="work-grid"
-          href="https://www.figma.com/design/8i2P6opRZEbezJImFLpEuD"
-        >
-          <img
-            alt=""
-            src="https://i.ibb.co/3MpV25Y/4b88af52-8528-4fc8-a189-a5756a5abfb4.png"
-          ></img>
-          <div className="hover-text">
-            <div className="text">
-              I worked on designing an educational report page tailored for
-              children aged 6-16. The page was created to present academic
-              progress in an engaging, age-appropriate way, using visuals,
-              simplified language, and interactive elements to keep young users
-              motivated and informed about their achievements.
             </div>
           </div>
         </a>
