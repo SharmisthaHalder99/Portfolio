@@ -45,7 +45,7 @@ const Career = () => {
       duration: "MAY 3RD 2021 - SEPTEMBER 3RD 2021 ",
     },
   ];
-  const [selectCompany, setSelectCompany] = useState("Bluetick");
+  const [selectCompany, setSelectCompany] = useState("ARC Document Solution");
   return (
     <div className="career-container" id="career">
       <Arrow id="career-arrow" />

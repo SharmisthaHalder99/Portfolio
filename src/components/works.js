@@ -42,6 +42,21 @@ const Works = () => {
         </a>
         <a
           className="work-grid"
+          href="https://www.figma.com/proto/hmhsnbj0F3uNhGq2qOavrv?node-id=5-37"
+        >
+          <img alt="" src="https://i.ibb.co/NyssJjL/mockup-one.png"></img>
+          <div className="hover-text">
+            <div className="text">
+              I had worked on a pill management app that had helped elderly
+              users take their medications on time and track their pill intake.
+              The app had provided reminders for each pill, making it easier for
+              users to maintain their schedule and manage their health more
+              independently.
+            </div>
+          </div>
+        </a>
+        <a
+          className="work-grid"
           href="https://www.figma.com/design/8i2P6opRZEbezJImFLpEuD"
         >
           <img
@@ -137,21 +152,6 @@ const Works = () => {
             </div>
           </div>
         </div> */}
-        <a
-          className="work-grid"
-          href="https://www.figma.com/proto/hmhsnbj0F3uNhGq2qOavrv?node-id=5-37"
-        >
-          <img alt="" src="https://i.ibb.co/NyssJjL/mockup-one.png"></img>
-          <div className="hover-text">
-            <div className="text">
-              I had worked on a pill management app that had helped elderly
-              users take their medications on time and track their pill intake.
-              The app had provided reminders for each pill, making it easier for
-              users to maintain their schedule and manage their health more
-              independently.
-            </div>
-          </div>
-        </a>
       </div>
     </section>
   );
