@@ -24,6 +24,7 @@ const Works = () => {
             </div>
           </div>
         </a>
+
         <a
           className="work-grid"
           href="https://www.figma.com/design/aAS13c3b8b823LNtf1o6nX?node-id="
@@ -37,6 +38,21 @@ const Works = () => {
               modernizing the layout, improving navigation, and ensuring a
               mobile-friendly interface to better meet the needs of its
               audience.
+            </div>
+          </div>
+        </a>
+        <a
+          className="work-grid"
+          href="https://apps.apple.com/in/app/arc-facilities-premier/id6739283887"
+        >
+          <img alt="" src="https://i.ibb.co/jkjwSw5M/arc-facilities.png"></img>
+          <div className="hover-text">
+            <div className="text">
+              ARC Facilities is a digital platform that helps facility managers
+              access critical building information—like emergency plans,
+              equipment details, and compliance records—instantly from any
+              device. It streamlines operations, improves safety, and enhances
+              on-site decision-making.
             </div>
           </div>
         </a>
@@ -87,7 +103,7 @@ const Works = () => {
             </div>
           </div>
         </div>
-        <div className="work-grid">
+        {/* <div className="work-grid">
           <img alt="" src="https://i.ibb.co/txYbm1y/image-30-1.png"></img>
           <div className="hover-text">
             <div className="text">
@@ -99,7 +115,7 @@ const Works = () => {
               engaging, making it a great tool for education and entertainment.
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="work-grid">
           <img alt="" src="https://i.ibb.co/y6589CZ/Group-1962.png"></img>
           <div className="hover-text">
